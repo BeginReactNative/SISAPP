@@ -1,0 +1,58 @@
+module.exports = data = [
+    {
+        link: "https://www.hust.edu.vn/tt/-/asset_publisher/AKFI5qRls1e8/content/le-khai-giang-khoa-ao-tao-tien-si-nam-2017",
+        time: "01/03/2017 04:29",
+        title: "Lễ khai giảng khóa đào tạo tiến sĩ năm 2017",
+        description: "Trường ĐHBK Hà Nội luôn kiên định mục tiêu giữ vững chất lượng đào tạo, đặc biệt ở bậc đào tạo tiến sĩ. Bằng chứng là các NCS khi bảo vệ có trung bình 5,8 bài báo khoa học.",
+        image: "https://www.hust.edu.vn/documents/208639/225187/20170516+le+khai+giang+tien+si_01.jpg/4c5c6213-e299-461a-8737-bfdb76820669?t=1494923667025",
+        image1: "https://www.hust.edu.vn/documents/208639/225187/20170505+khai+giang+thac+si_01.jpg/edea9fe4-62a4-4784-b038-9a21fcda2eff?t=1493971759161",
+        image2: "https://www.hust.edu.vn/documents/208639/225187/20170505+khai+giang+thac+si_03.jpg/bfc49767-3148-491a-b87f-e73724e94ed1?t=1493971771089",
+        image3: "https://www.hust.edu.vn/documents/208639/225187/20170505+khai+giang+thac+si_02.jpg/bb0d4752-89c8-485a-ba8e-0c1fcc79f918?t=1493971764992",
+        detail1: "Lễ khai giảng còn có sự hiện diện của GS Đinh Văn Phong – Phó Hiệu trưởng; đại diện lãnh đạo Viện đào tạo cùng 418 tân học viên.Mở đầu buổi Lễ, PGS Nguyễn Đắc Trung đã đọc Quyết định công nhận 418 học viên cao học trúng tuyển khóa đào tạo thạc sĩ đợt 1 năm 2017 của Trường, trong đó có 333 học viên theo định hướng ứng dụng và 85 học viên theo định hướng nghiên cứu.",
+        detail2: "Phát biểu tại Lễ khai giảng, GS Đinh Văn Phong đã gửi lời chúc mừng đến các tân học viên và nhấn mạnh: “Với mục tiêu không ngừng nâng cao chất lượng đào tạo sau đại học, trong những năm qua, Trường ĐHBK Hà Nội đã có nhiều đổi mới trong công tác quản lý và chương trình đào tạo; luôn chú trọng kết hợp giữa đào tạo và nghiên cứu khoa học, từng bước khẳng định vị thế của Trường ĐHBK Hà Nội trong đào tạo nguồn nhân lực chất lượng cao cho xã hội”. Phó Hiệu trưởng hi vọng các tân học viên sẽ nỗ lực không ngừng để hoàn thành tốt khóa đào tạo cũng như nâng cao tri thức, trình độ chuyên môn của mình, nhằm phục vụ thực tiễn công việc của bản thân và đơn vị. Nhân dịp này, thay mặt lãnh đạo Nhà trường, GS Đinh Văn Phong đã gửi lời cảm ơn sâu sắc tới đội ngũ giảng viên, nhà khoa học đã luôn tận tâm, nhiệt huyết, tạo điều kiện giúp đỡ học viên.",
+        detail3: "Đại diện cho các viện đào tạo, PGS Hoàng Sĩ Hồng – Phó Viện trưởng Viện Điện chia sẻ: “Chúng tôi luôn dồn hết tâm huyết, nhiệt huyết để truyền đạt kiến thức đến các học viên với mong muốn những kiến thức đó sẽ đáp ứng yêu cầu công việc thực tế của mỗi học viên”. Chia sẻ cảm xúc trong ngày khai giảng tân học viên Nguyễn Kiên Cường chuyên ngành Tự động hóa cho biết: “Là học viên cao học của một trường đại học có bề dày truyền thống và có uy tín cao, chúng tôi ý thức được trách nhiệm của người học viên phải cố gắng hoàn thành tốt nhiệm vụ học tập để góp phần xây đắp thêm truyền thống của Trường”. Đồng thời, các học viên cũng mong muốn thầy, cô sẽ tạo điều kiện tốt nhất giúp đỡ học viên trong quá trình học tập và nghiên cứu tại Trường.",
+        category: "Tin Chung"
+    },
+    {
+        link: "https://www.hust.edu.vn/tt/-/asset_publisher/AKFI5qRls1e8/content/vien-co-khi-ong-luc-gianh-nhieu-giai-cao-tai-giai-tennis-can-bo-tre-nam-2017",
+        time: "01/04/2017 02:29",
+        title: "Viện Cơ khí Động lực giành nhiều giải cao tại Giải tennis cán bộ trẻ năm 2017",
+        description: "Giải tennis cán bộ trẻ Trường ĐHBK Hà Nội được BCH Đoàn Thanh niên Trường tổ chức. Đây là sân chơi thường niên dành cho cán bộ, giảng viên Trường",
+        image: "https://www.hust.edu.vn/documents/33133/217304/2017515+Giai+tennis+1.jpg/b26bb426-d8a2-4469-a87f-4967632146c4?t=1494840799598",
+        image1: "https://www.hust.edu.vn/documents/33133/217304/2017515+Giai+tennis+1.jpg/b26bb426-d8a2-4469-a87f-4967632146c4?t=1494840799598",
+        image2: "https://www.hust.edu.vn/documents/33133/217304/NIK_3754.jpg/2faba14e-637b-40a9-967a-b2e9ad4bda67?t=1494840832355",
+        image3: "https://www.hust.edu.vn/documents/33133/217304/2017515+Giai+tennis+2.jpg/1a3bcfe4-d0f7-4677-b939-a072c602556b?t=1494840870006",
+        detail1: "Hưởng ứng phong trào rèn luyện thân thể theo gương Bác Hồ vĩ đại, đồng thời đẩy mạnh phong trào rèn luyện thể chất sau những giờ công tác, giảng dạy và nghiên cứu, Giải tennis cán bộ trẻ Trường ĐHBK Hà Nội được BCH Đoàn Thanh niên Trường tổ chức. Đây là sân chơi thường niên dành cho cán bộ, giảng viên Trường, đồng thời tiếp thêm động lực cho việc hoàn thành tốt các công tác. Giải còn là nơi phát huy tinh thần đoàn kết, giao lưu, học hỏi giữa các đơn vị.",
+        detail2: "Giải năm nay diễn ra trong 2 ngày (13 - 14/5/2017) với sự so tài của 12 cặp đôi đến từ 10 Khoa, Viện, Phòng, Ban, Trung tâm trong Trường. Giải đấu thu hút sự quan tâm và cổ vũ, động viên của đông đảo cán bộ và sinh viên.",
+        detail3: "Với 24 vận động viên, Giải đấu chia thành 4 bảng thi đấu vòng loại trực tiếp. Sau 20 trận đấu đầy kịch tính và căng thẳng, cặp đôi Trần Quang Vinh – Vũ Quốc Huy đến từ Viện Cơ khí Động lực đã xuất sắc giành chức vô địch; cặp đôi đến từ Viện Công nghệ Thông tin và Truyền thông Trần Hoàng Hải – Ngô Hồng Sơn giành giải Nhì; cặp đôi Trần Thị Thu Hương – Lưu Hồng Quân của Viện Cơ khí Động lực đạt giải Ba. Bên cạnh đó, Giải phong cách đã được trao cho cặp đôi Viện Khoa học và Kỹ thuật Vật liệu là Đinh Văn Hải – Trần Đức Huy.",
+        category: "Tin Chung"
+    },
+    {
+        link:"https://www.hust.edu.vn/tt/-/asset_publisher/AKFI5qRls1e8/content/hon-1-000-tan-ki-su-cu-nhan-nhan-bang-tot-nghiep",
+        time: "08 tháng 05, 2017",
+        title: "Hơn 1.000 tân kĩ sư, cử nhân nhận bằng tốt nghiệp",
+        description: "Sáng ngày 6/5/2017, tại Hội trường B1, Trường ĐHBK Hà Nội long trọng tổ chức Lễ tốt nghiệp cho hơn 1000 tân kĩ sư, cử nhân. Buổi lễ là dấu mốc đáng tự hào",
+        image: "https://www.hust.edu.vn/image/journal/article?img_id=226589&t=1495112610692",
+        image1: "https://www.hust.edu.vn/documents/52727/223726/Le+tot+nghiep+5.jpg/56299b9b-1d33-449c-a9bc-c1aa0d474641?t=1494205063170",
+        image2: "https://www.hust.edu.vn/documents/52727/223726/Le+tot+nghiep+4.jpg/3c8f2777-2847-48a3-ba15-c47601237d5e?t=1494204971475",
+        image3: "https://www.hust.edu.vn/documents/52727/223726/Le+tot+nghiep+2.jpg/a92b0799-7b4f-4f40-b2aa-dcc18f531461?t=1494204975262",
+        detail1: "Sáng ngày 6/5/2017, tại Hội trường B1, Trường ĐHBK Hà Nội long trọng tổ chức Lễ tốt nghiệp cho hơn 1000 tân kĩ sư, cử nhân. Buổi lễ là dấu mốc đáng tự hào ghi nhận những thành quả về công tác giảng dạy, đào tạo của tập thể cán bộ, giảng viên Trường; đồng thời là bước ngoặt quan trọng đánh dấu sự trưởng thành về tri thức và nhân cách của mỗi sinh viên sau thời gian dài học tập, nghiên cứu tại Trường.",
+        detail2: "Tham dự buổi Lễ có PGS Trần Văn Tớp – Phó Bí thư Đảng ủy, Phó Hiệu trưởng; các Thầy Cô trong Đảng ủy, Ban Giám hiệu, Công đoàn, Đoàn Thanh niên Cộng Sản Hồ Chí Minh; lãnh đạo các Khoa, Viện, Phòng, Ban, Trung tâm và các Thầy Cô giáo thuộc các Viện có sinh viên tốt nghiệp; đặc biệt là sự tham dự của các tân kỹ sư, tân cử nhân cùng với gia đình và người thân.",
+        detail3: "Phát biểu tại buổi lễ, PGS Trần Văn Tớp chia sẻ, được nhận bằng tốt nghiệp đối với các sinh viên là một niềm vui, niềm vinh dự lớn lao và niềm tự hào chính đáng về kết quả học tập, rèn luyện của mình sau 4 - 5 năm nỗ lực phấn đấu để thành công. PGS Trần Văn Tớp hy vọng rằng, nay mai không xa các tân cử nhân, tân kĩ sư sẽ có được vị trí việc làm để mưu sinh, lập nghiệp, để cống hiến sức trẻ phụng sự Tổ quốc, phục vụ nhân dân; đồng thời nhắn nhủ tới các em rằng trong bất cứ hoàn cảnh nào, các bạn vẫn giữ vững ý chí, nghị lực và niềm tin vào cuộc sống, tin vào chính bản thân mình để vươn lên và đạt được thành công; khẳng định giá trị cá nhân và cống hiến cho xã hội, góp phần làm sáng danh thêm uy tín của Trường ĐHBK Hà Nội.",
+        category: "Tin tức đào tạo"
+    },
+    {
+        link:"https://www.hust.edu.vn/tt/-/asset_publisher/AKFI5qRls1e8/content/le-khai-giang-khoa-ao-tao-thac-si-ot-1-nam-2017",
+        time: "05 tháng 05, 2017",
+        title: "Lễ khai giảng khóa đào tạo thạc sĩ đợt 1 năm 2017",
+        description: "ĐHBK Hà Nội là trường đại học đầu tiên ở Việt Nam tiên phong tiếp cận, học hỏi kinh nghiệm từ các mô hình và chương trình đào tạo tiên tiến trên thế giới",
+        image: "https://www.hust.edu.vn/image/journal/article?img_id=225241&t=1495112610717",
+        image1: "https://www.hust.edu.vn/documents/208639/225187/20170505+khai+giang+thac+si_01.jpg/edea9fe4-62a4-4784-b038-9a21fcda2eff?t=1493971759161",
+        image2: "https://www.hust.edu.vn/documents/208639/225187/20170505+khai+giang+thac+si_03.jpg/bfc49767-3148-491a-b87f-e73724e94ed1?t=1493971771089",
+        image3: "https://www.hust.edu.vn/documents/208639/225187/20170505+khai+giang+thac+si_02.jpg/bb0d4752-89c8-485a-ba8e-0c1fcc79f918?t=1493971764992",
+        detail1: "Mở đầu buổi Lễ, PGS Nguyễn Đắc Trung đã đọc Quyết định công nhận 418 học viên cao học trúng tuyển khóa đào tạo thạc sĩ đợt 1 năm 2017 của Trường, trong đó có 333 học viên theo định hướng ứng dụng và 85 học viên theo định hướng nghiên cứu.",
+        detail2: "Phát biểu tại Lễ khai giảng, GS Đinh Văn Phong đã gửi lời chúc mừng đến các tân học viên và nhấn mạnh: “Với mục tiêu không ngừng nâng cao chất lượng đào tạo sau đại học, trong những năm qua, Trường ĐHBK Hà Nội đã có nhiều đổi mới trong công tác quản lý và chương trình đào tạo; luôn chú trọng kết hợp giữa đào tạo và nghiên cứu khoa học, từng bước khẳng định vị thế của Trường ĐHBK Hà Nội trong đào tạo nguồn nhân lực chất lượng cao cho xã hội”. Phó Hiệu trưởng hi vọng các tân học viên sẽ nỗ lực không ngừng để hoàn thành tốt khóa đào tạo cũng như nâng cao tri thức, trình độ chuyên môn của mình, nhằm phục vụ thực tiễn công việc của bản thân và đơn vị. Nhân dịp này, thay mặt lãnh đạo Nhà trường, GS Đinh Văn Phong đã gửi lời cảm ơn sâu sắc tới đội ngũ giảng viên, nhà khoa học đã luôn tận tâm, nhiệt huyết, tạo điều kiện giúp đỡ học viên.",
+        detail3: "Đại diện cho các viện đào tạo, PGS Hoàng Sĩ Hồng – Phó Viện trưởng Viện Điện chia sẻ: “Chúng tôi luôn dồn hết tâm huyết, nhiệt huyết để truyền đạt kiến thức đến các học viên với mong muốn những kiến thức đó sẽ đáp ứng yêu cầu công việc thực tế của mỗi học viên”.Chia sẻ cảm xúc trong ngày khai giảng tân học viên Nguyễn Kiên Cường chuyên ngành Tự động hóa cho biết: “Là học viên cao học của một trường đại học có bề dày truyền thống và có uy tín cao, chúng tôi ý thức được trách nhiệm của người học viên phải cố gắng hoàn thành tốt nhiệm vụ học tập để góp phần xây đắp thêm truyền thống của Trường”. Đồng thời, các học viên cũng mong muốn thầy, cô sẽ tạo điều kiện tốt nhất giúp đỡ học viên trong quá trình học tập và nghiên cứu tại Trường.",
+        category: "Tin tức đào tạo"
+    },
+]
