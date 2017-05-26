@@ -15,7 +15,7 @@ module.exports = styles = StyleSheet.create({
   },
   header: {
       flexDirection: 'row',
-    backgroundColor: '#F5FCFF',
+    backgroundColor: 'transparent',
     padding: 10,
     height: height / 7,
     borderBottomWidth: 1,
@@ -79,7 +79,7 @@ module.exports = styles = StyleSheet.create({
       height: 20,
       marginRight: 10
   },
-  containerDetail : {
+  containerDetail: {
     flex:1,
     justifyContent: 'space-between',
     flexDirection: 'row',

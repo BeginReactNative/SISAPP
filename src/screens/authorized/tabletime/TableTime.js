@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { View, Text,StyleSheet,Dimensions,Image } from 'react-native';
+import AnimatedLinearGradient, { presetColors } from 'react-native-animated-linear-gradient';
 import { Header_Home } from '../../../components/headers/Header_Home';
 import Accordion from 'react-native-collapsible/Accordion';
 import data from '../../../demo_data/DemoTableTime';
@@ -39,13 +40,14 @@ class Table_Time extends Component {
     render() {
         return (
         <View style={{flex:1, padding:10}}>
+           <AnimatedLinearGradient customColors={presetColors.instagram} speed={4000} />
          <Accordion
         sections={data}
         renderHeader={this._renderHeader}
         renderContent={this._renderContent}
          />
-         <View style={{justifyContent:'center',alignItems: 'center', marginTop : 20}}>
-         <Text style={{fontSize: 20, fontWeight: 'bold',fontFamily: 'Avenir',color: 'red'}}> KỲ HỌC: 2015-2</Text>
+         <View style={{ justifyContent:'center',alignItems: 'center', marginTop: 20 }}>
+         <Text style={{ fontSize: 20, fontWeight: 'bold', fontFamily: 'Avenir', color: 'red', backgroundColor: 'transparent' }}> KỲ HỌC: 2015-2</Text>
          </View>
          </View>
         );
@@ -67,7 +69,7 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
   header: {
-    backgroundColor: '#F5FCFF',
+    backgroundColor: 'transparent',
     padding: 10,
     height: height / 7,
     borderBottomWidth: 1,
@@ -87,7 +89,8 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     padding: 20,
     backgroundColor: '#fff',
-    margin: 5
+    margin: 5,
+    borderRadius: 10
   },
   active: {
     backgroundColor: 'rgba(255,255,255,1)',

@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { View, Text, Image, TouchableOpacity, ScrollView, FlatList,Dimensions } from 'react-native';
+import AnimatedLinearGradient, { presetColors } from 'react-native-animated-linear-gradient';
+
 import { Header_Home } from '../../../components/headers/Header_Home';
 import SortScore from '../../../components/Score/SortScore';
 import Accordion from 'react-native-collapsible/Accordion';
@@ -42,7 +44,7 @@ class Score extends Component {
     render() {
         return (
             <View style={{ flex: 1 }}>
-                <SortScore />
+                <AnimatedLinearGradient customColors={presetColors.instagram} speed={4000} />
                 <Accordion
                     sections={data}
                     renderHeader={this._renderHeader}
