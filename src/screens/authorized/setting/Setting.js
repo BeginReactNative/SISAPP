@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import { View, Text } from 'react-native';
-import { Header_Home } from '../../../components/headers/Header_Home';
+import { Header_Menu } from '../../../components/headers/Header_Menu';
+
 class Setting extends Component {
     static navigationOptions = {
         headerMode: 'screen',
         title: 'Home',
         headerTitleStyle: { color: '#fff' },
-        header:(navigation) => <Header_Home {...navigation}/>
+        header:(navigation) => <Header_Menu {...navigation}/>
     }
     render() {
         return (

@@ -1,19 +1,17 @@
 import React, { Component } from 'react';
 import { View, StyleSheet, Dimensions } from 'react-native';
 import Chart from 'react-native-chart';
+import AnimatedLinearGradient, { presetColors } from 'react-native-animated-linear-gradient';
+
 
 const { height, width } = Dimensions.get('window');
 class GraphScore extends Component {
 
     render() {
-        const data = [[
-            [0, 1],
-            [1, 2],
-            [1, 3],
-            [2, 4],
-        ]];
         return (
             <View style={styles.container}>
+                                <AnimatedLinearGradient customColors={presetColors.instagram} speed={4000} />
+
                 <Chart
                     style={styles.chart}
                     data={data2}

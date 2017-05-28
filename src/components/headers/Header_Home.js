@@ -25,6 +25,7 @@ const Header_Home = (navigation) => {
         
     );
 }
+
 const { height } = Dimensions.get('window')
 const styles = StyleSheet.create({
     container: {

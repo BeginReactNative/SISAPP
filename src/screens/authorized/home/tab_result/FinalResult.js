@@ -1,26 +1,18 @@
 import React, { Component } from 'react';
-import { View, Image, Text } from 'react-native';
-import Header from '../Home/HeaderFinalResult';
+import { View, Text } from 'react-native';
+import AnimatedLinearGradient, { presetColors } from 'react-native-animated-linear-gradient';
 import styles from './ResultStyle';
-import Graph from '../ResultStudent/GraphScore';
+import Graph from './GraphScore';
+
 class FinalResult extends Component {
     
-    render() {
-       
+    render() { 
         return (
             <View style={styles.FinalResultContainer}>
 
-                <Header />
+                <AnimatedLinearGradient customColors={presetColors.instagram} speed={4000} />
+
                 <View style={styles.StudentInfoStyle}>
-                    <Image
-                        source={ require ('../../media/temp/download.jpeg')}
-                        style={{
-                            position: 'absolute',
-                            top: -50,
-                            height: 80,
-                            width: 80
-                        }}
-                    />
                     <View style={styles.StudentStatusStyle}>
                         <Text style={{ fontWeight: 'bold' }}> NGUYỄN TRUNG KIÊN</Text>
                         <Text>MSSV:20081450 | CNPM | K53</Text>

@@ -46,6 +46,7 @@ const Authorized = DrawerNavigator({
                     style={[styles.icon, { tintColor: tintColor }]}
                 />
             ),
+            
         }
     },
     TableTime: {

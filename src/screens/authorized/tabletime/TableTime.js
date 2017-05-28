@@ -1,17 +1,20 @@
 import React, { Component } from 'react';
-import { View, Text,StyleSheet,Dimensions,Image } from 'react-native';
+import { View, Text, StyleSheet, Dimensions, Image } from 'react-native';
 import AnimatedLinearGradient, { presetColors } from 'react-native-animated-linear-gradient';
-import { Header_Home } from '../../../components/headers/Header_Home';
+import { Header_Menu } from '../../../components/headers/Header_Menu';
 import Accordion from 'react-native-collapsible/Accordion';
 import data from '../../../demo_data/DemoTableTime';
+
 class Table_Time extends Component {
-    static navigationOptions = {
-        headerMode: 'screen',
-        title: 'Home',
-        headerTitleStyle: { color: '#fff' },
-        header: (navigation) => <Header_Home {...navigation} />
+  static navigationOptions = ({ navigation }) => ({
+    //tabBarIcon: ({ focused }) => (focused ? HomeIcon : HomeIconWhite),
+    headerLeft: <Header_Menu {...navigation} />,
+    title: <Text style={{ color: 'black' }}>Thời khoá biểu</Text>,
+    headerStyle: {
+      backgroundColor: 'rgb(106, 57, 171)'
     }
-    _renderHeader(section) {
+  })
+  _renderHeader(section) {
     return (
       <View style={styles.header}>
         <Text style={styles.headerText}>{section.Ngay}</Text>
@@ -22,36 +25,36 @@ class Table_Time extends Component {
   _renderContent(section) {
     return (
       <View style={styles.content}>
-          <View style={{ alignItems: 'center',justifyContent: 'space-between'}}>
-              <Image source={require('../../../img/icon/clock.png')} style={styles.clock}/>
-              <View style={{width:3,height: 60,backgroundColor:'#e0e0e0'}}/>
-          </View>
-        <View style={{marginLeft: 10,justifyContent: 'space-between'}}>
-        <Text style={styles.textTime}>{section.ThoiGian}</Text>
-        <Text style={styles.textDes}>{section.MaHP}</Text>
-        <Text style={styles.textDes}>{section.TenMH}</Text>
-        <Text style={styles.textDes}>{section.TuanHoc}</Text>
-        <Text style={styles.textDes}>{section.DiaDiem}</Text>
+        <View style={{ alignItems: 'center', justifyContent: 'space-between' }}>
+          <Image source={require('../../../img/icon/clock.png')} style={styles.clock} />
+          <View style={{ width: 3, height: 60, backgroundColor: '#e0e0e0' }} />
         </View>
-        
+        <View style={{ marginLeft: 10, justifyContent: 'space-between' }}>
+          <Text style={styles.textTime}>{section.ThoiGian}</Text>
+          <Text style={styles.textDes}>{section.MaHP}</Text>
+          <Text style={styles.textDes}>{section.TenMH}</Text>
+          <Text style={styles.textDes}>{section.TuanHoc}</Text>
+          <Text style={styles.textDes}>{section.DiaDiem}</Text>
+        </View>
+
       </View>
     );
   }
-    render() {
-        return (
-        <View style={{flex:1, padding:10}}>
-           <AnimatedLinearGradient customColors={presetColors.instagram} speed={4000} />
-         <Accordion
-        sections={data}
-        renderHeader={this._renderHeader}
-        renderContent={this._renderContent}
-         />
-         <View style={{ justifyContent:'center',alignItems: 'center', marginTop: 20 }}>
-         <Text style={{ fontSize: 20, fontWeight: 'bold', fontFamily: 'Avenir', color: 'red', backgroundColor: 'transparent' }}> KỲ HỌC: 2015-2</Text>
-         </View>
-         </View>
-        );
-    }
+  render() {
+    return (
+      <View style={{ flex: 1, padding: 10 }}>
+        <AnimatedLinearGradient customColors={presetColors.instagram} speed={4000} />
+        <Accordion
+          sections={data}
+          renderHeader={this._renderHeader}
+          renderContent={this._renderContent}
+        />
+        <View style={{ justifyContent: 'center', alignItems: 'center', marginTop: 20 }}>
+          <Text style={{ fontSize: 20, fontWeight: 'bold', fontFamily: 'Avenir', color: 'red', backgroundColor: 'transparent' }}> KỲ HỌC: 2015-2</Text>
+        </View>
+      </View>
+    );
+  }
 }
 
 const { height } = Dimensions.get('window');
@@ -116,18 +119,18 @@ const styles = StyleSheet.create({
     padding: 10,
   },
   clock: {
-      width: 20,
-      height: 20
+    width: 20,
+    height: 20
   },
   textTime: {
-      fontWeight: 'bold',
-      fontSize: 15,
-      fontFamily: 'Avenir'
+    fontWeight: 'bold',
+    fontSize: 15,
+    fontFamily: 'Avenir'
   },
   textDes: {
-      fontFamily: 'Avenir',
-      fontSize: 12,
-      color: '#696969'
+    fontFamily: 'Avenir',
+    fontSize: 12,
+    color: '#696969'
   }
 
 });

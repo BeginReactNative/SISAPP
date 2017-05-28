@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
-import { View, Text,Image, Dimensions } from 'react-native';
+import { View, Text, Image, Dimensions } from 'react-native';
+import AnimatedLinearGradient, { presetColors } from 'react-native-animated-linear-gradient';
+
 class Contact extends Component {
    
     render() {
         return (
             <View style={{ flex: 1}}>
+                <AnimatedLinearGradient customColors={presetColors.instagram} speed={4000} />
+
                <View style={styles.map}>
                    <Image source={require('../../../../img/icon/bkmap copy.png')} style={styles.imgMap}/>
                </View>
@@ -39,6 +43,7 @@ const styles = {
     map: {
         flex: 1,
         margin: 10,
+        borderRadius: 10
     },
     info_container : {
         flex: 1,
@@ -55,7 +60,7 @@ const styles = {
     textStyle: {
         fontFamily: 'Avenir',
         fontSize :12,
-        color: '#696969',
+        color: '#fff',
         fontWeight: 'bold'
     },
     icon: {
