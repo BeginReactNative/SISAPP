@@ -97,5 +97,17 @@ module.exports = styles = StyleSheet.create({
   infotitle: {
 
   },
+   button: {
+        height: 50,
+        margin: 20,
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: 'aqua',
+        borderRadius: 10
+
+    },
+    mainContent: {
+        margin: 10,
+    }
 
 });

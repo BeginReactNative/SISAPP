@@ -1,4 +1,4 @@
-module.exports = data = [
+module.exports = dataDiem = [
     {
         kyhoc: '2010-1',
         chitiet: [{

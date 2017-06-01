@@ -1,4 +1,4 @@
-module.exports = data = [
+module.exports = dataNews = [
     {
         link: "https://www.hust.edu.vn/tt/-/asset_publisher/AKFI5qRls1e8/content/le-khai-giang-khoa-ao-tao-tien-si-nam-2017",
         time: "01/03/2017 04:29",

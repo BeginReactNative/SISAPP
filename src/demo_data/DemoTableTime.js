@@ -1,4 +1,4 @@
-module.exports = data = [
+module.exports = dataTableTime = [
     {
         MaLopDK : "87804",
         Nhom: "TC",

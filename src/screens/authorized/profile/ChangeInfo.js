@@ -7,12 +7,10 @@ class ChangeInfo extends Component {
     render() {
         return (
             <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-                <Text style={{color:'red'}}>ChangeInfo Screen</Text>
+                <Text style={{ color: 'red' }}>ChangeInfo Screen</Text>
             </View>
         );
     }
     
 };
-
-
 export default ChangeInfo;

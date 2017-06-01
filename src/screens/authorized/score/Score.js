@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
-import { View, Text, Image, TouchableOpacity, ScrollView, FlatList, Dimensions } from 'react-native';
+import { View, Text, Image, TouchableOpacity, ScrollView, Dimensions } from 'react-native';
 import AnimatedLinearGradient, { presetColors } from 'react-native-animated-linear-gradient';
-
+import Accordion from 'react-native-collapsible/Accordion';
+import { connect } from 'react-redux';
+import { fetchDataScore } from '../../../actions/fetchActions';
 import { Header_Menu } from '../../../components/headers/Header_Menu';
 import SortScore from '../../../components/Score/SortScore';
-import Accordion from 'react-native-collapsible/Accordion';
+
 import styles from './ScoreStyle';
-import data from '../../../demo_data/DemoScore';
-import ListScore from './ScoreList';
-const { width, height } = Dimensions.get('window')
+import data1 from '../../../demo_data/DemoScore';
+
+const { width } = Dimensions.get('window');
 class Score extends Component {
     static navigationOptions = ({ navigation }) => ({
         //tabBarIcon: ({ focused }) => (focused ? HomeIcon : HomeIconWhite),
@@ -28,8 +30,7 @@ class Score extends Component {
     }
 
     _renderContent(section) {
-
-
+        
         return (
             <View style={styles.content}>
                 <View style={styles.SecTitle}>
@@ -38,7 +39,7 @@ class Score extends Component {
                     <Text>Số TC</Text>
                     <Text>Điểm</Text>
                 </View>
-                <ListScore />
+
 
             </View>
         );
@@ -47,15 +48,41 @@ class Score extends Component {
         return (
             <View style={{ flex: 1 }}>
                 <AnimatedLinearGradient customColors={presetColors.instagram} speed={4000} />
-                <Accordion
-                    sections={data}
-                    renderHeader={this._renderHeader}
-                    renderContent={this._renderContent}
-                />
+                <TouchableOpacity style={styles.button} onPress={this.props.fetchDataScore}>
+                    <Text>Click Me</Text>
+                </TouchableOpacity>
+                <View style={styles.mainContent}>
+                    {
+                        this.props.data.isFetching && <Text>Loading</Text>
+                    }
+                    {
+                        this.props.data.data.length ? (
+                            this.props.data.data.map((person, i) => <View key={i}>
+                                <Text>Name: {person.kyhoc} </Text>
+                              
+                            </View>)
+                        ) : null
+                    }
+
+
+                </View>
             </View>
         );
     }
 }
 
+const mapStateToProps = (state) => {
+    console.log(state);
+    return {
+        data: state.fetchReducer
+    };
+};
+export default connect(mapStateToProps, { fetchDataScore })(Score);
 
-export default Score;
+/**
+ * <Accordion
+                    sections={data1}
+                    renderHeader={this._renderHeader}
+                    renderContent={this._renderContent}
+                />
+ */

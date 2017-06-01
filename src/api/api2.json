@@ -1,0 +1,21 @@
+{
+    "students": {
+        "id": 1,
+        "first_name": "Kien",
+        "last_name": "Nguyen",
+        "phone": "0969-995-997",
+        "kyhoc": [
+            {
+                "id": "2010-1",
+                "chitiet": [
+                    {
+                        "id": "IT4502",
+                        "tenmon": "Cau truc du lieu",
+                        "soTC": 4,
+                        "diem": "A"
+                    }
+                ]
+            }
+        ]
+    }
+}
